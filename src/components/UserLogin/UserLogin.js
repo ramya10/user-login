@@ -57,7 +57,7 @@ class UserLoginForm extends Component {
   onUserNameBlur(e){
     if(e.target.value === ''){
       this.setState({
-        usernameError: 'Enter Valid Email'
+        usernameError: 'Enter Valid Username'
       })
     }
   }
